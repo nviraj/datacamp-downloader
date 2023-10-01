@@ -5,10 +5,16 @@ pip install -e .
 
 ```
 
+## Set Token
+
+```
+datacamp set-token <Token>
+```
+
 ## List Courses
 
 ```
-datacamp courses
+datacamp courses --refresh
 ```
 
 ## Download Options

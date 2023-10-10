@@ -1,19 +1,25 @@
 ## Installation
 
-```
+```sh
 pip install -e .
 
 ```
 
 ## Set Token
 
+Login using Credentials
+
+```sh
+datacamp login -u [USERNAME] -p [PASSWORD]
 ```
-datacamp set-token <Token>
+
+```sh
+datacamp set-token [TOKEN]
 ```
 
 ## List Courses
 
-```
+```sh
 datacamp courses --refresh
 ```
 
@@ -21,12 +27,12 @@ datacamp courses --refresh
 
 All Courses
 
-```
+```sh
 datacamp download --no-videos --subtitles none all
 ```
 
 Specific Courses
 
-```
+```sh
 datacamp download --no-videos --subtitles none <IDs separated by Space>
 ```

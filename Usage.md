@@ -7,6 +7,12 @@ pip install -e .
 
 ## Set Token
 
+Reset Credentials
+
+```sh
+datacamp reset
+```
+
 Login using Credentials
 
 ```sh
